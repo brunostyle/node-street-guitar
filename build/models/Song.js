@@ -3,11 +3,11 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports["default"] = void 0;
+exports.default = void 0;
 
 var _mongoose = require("mongoose");
 
-var songSchema = new _mongoose.Schema({
+const songSchema = new _mongoose.Schema({
   name: {
     type: String,
     required: true
@@ -28,7 +28,7 @@ var songSchema = new _mongoose.Schema({
   },
   state: {
     type: Boolean,
-    "default": true
+    default: true
   },
   user: {
     type: _mongoose.Schema.Types.ObjectId,
@@ -40,4 +40,4 @@ var songSchema = new _mongoose.Schema({
 
 var _default = (0, _mongoose.model)('Song', songSchema);
 
-exports["default"] = _default;
+exports.default = _default;

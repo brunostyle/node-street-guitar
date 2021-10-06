@@ -5,32 +5,32 @@ Object.defineProperty(exports, "__esModule", {
 });
 Object.defineProperty(exports, "auth", {
   enumerable: true,
-  get: function get() {
-    return _auth["default"];
+  get: function () {
+    return _auth.default;
   }
 });
 Object.defineProperty(exports, "users", {
   enumerable: true,
-  get: function get() {
-    return _users["default"];
+  get: function () {
+    return _users.default;
   }
 });
 Object.defineProperty(exports, "songs", {
   enumerable: true,
-  get: function get() {
-    return _songs["default"];
+  get: function () {
+    return _songs.default;
   }
 });
 Object.defineProperty(exports, "genders", {
   enumerable: true,
-  get: function get() {
-    return _genders["default"];
+  get: function () {
+    return _genders.default;
   }
 });
 Object.defineProperty(exports, "artists", {
   enumerable: true,
-  get: function get() {
-    return _artists["default"];
+  get: function () {
+    return _artists.default;
   }
 });
 
@@ -44,4 +44,4 @@ var _genders = _interopRequireDefault(require("./genders"));
 
 var _artists = _interopRequireDefault(require("./artists"));
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }

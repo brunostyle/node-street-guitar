@@ -3,11 +3,11 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports["default"] = void 0;
+exports.default = void 0;
 
 var _mongoose = require("mongoose");
 
-var genderSchema = new _mongoose.Schema({
+const genderSchema = new _mongoose.Schema({
   name: {
     type: String,
     required: true,
@@ -15,7 +15,7 @@ var genderSchema = new _mongoose.Schema({
   },
   state: {
     type: Boolean,
-    "default": true
+    default: true
   }
 }, {
   versionKey: false
@@ -23,4 +23,4 @@ var genderSchema = new _mongoose.Schema({
 
 var _default = (0, _mongoose.model)('Gender', genderSchema);
 
-exports["default"] = _default;
+exports.default = _default;
